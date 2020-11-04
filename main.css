@@ -1,35 +1,4 @@
-/* Background colors for containers */
 
-/*
-.profile-card {
-  background-color: hsla(60, 100%, 50%, .4);
-}
-
-.head {
-  background-color: hsla(120, 100%, 50%, .4);
-}
-
-.content {
-  background-color: hsla(120, 100%, 50%, .4);
-}
-
-.profile-image {
-  background-color: hsla(300, 100%, 50%, .4);
-}
-
-.name-headline {
-  background-color: hsla(300, 100%, 50%, .4);
-}
-
-.about {
-  background-color: hsla(300, 100%, 50%, .4);
-}
-
-.links {
-  background-color: hsla(300, 100%, 50%, .4);
-}
-
-÷/
 
 /* CSS reset */
 
@@ -54,6 +23,7 @@ body {
   justify-content: center;
   background: url('assets/desert.jpg') no-repeat center center fixed;
   background-size: cover;
+
 }
 
 .head, .links {
@@ -103,6 +73,15 @@ img:hover {
   border-radius: 4px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
+.languages {
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  text-align: right;
+  margin: 50px; auto;
+  position: relative;
+  top: -300px; left: 800px;
+
 
 /* Contact links */
 
